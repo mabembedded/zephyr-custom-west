@@ -12,16 +12,8 @@ manifest:
       import:
         name-allowlist:
           - zephyr
-    - name: hal_stm32
-      revision: 60c9634f61c697e1c310ec648d33529712806069
-      path: modules/hal/stm32
-      groups:
-        - hal
-    - name: cmsis
-      revision: 4b96cbb174678dcd3ca86e11e1f24bc5f8726da0
-      path: modules/hal/cmsis
-      groups:
-        - hal
+          - hal_stm32
+          - cmsis
 
   self:
     path: zephyr-custom-west
